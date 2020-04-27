@@ -20,7 +20,7 @@ export const LikeButton = ({
 
   return (
     <Wrapper>
-      <Ripples color={rippleClr} during={900}>
+      <Ripples color={rippleClr} during={1400}>
         <LBContainer
           onClick={() => handleOnClick()}
           hoverClr={hoverClr}

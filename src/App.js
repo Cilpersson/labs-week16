@@ -6,12 +6,21 @@ export const App = () => {
   return (
     <Wrapper>
       <LikeButton
-        buttonSize="100px"
+        buttonSize="300px"
         iconClr="#ff2e76"
-        iconSize="50"
+        iconSize="150"
         activeClr="#ffa1c1"
         hoverClr="#ffd6e4"
         rippleClr="#ffd6e470"
+      />
+
+      <LikeButton
+        buttonSize="200px"
+        iconClr="#000"
+        iconSize="100"
+        activeClr="#00000040"
+        hoverClr="#00000020"
+        rippleClr="#00000070"
       />
 
       <LikeButton
@@ -23,28 +32,28 @@ export const App = () => {
         rippleClr="#f5d6ff70"
       />
       <LikeButton
-        buttonSize="100px"
+        buttonSize="200px"
         iconClr="#2e82ff"
-        iconSize="50"
+        iconSize="100"
         activeClr="#a1cdff"
         hoverClr="#d6e6ff"
         rippleClr="#d6e6ff70"
       />
       <LikeButton
-        buttonSize="100px"
-        iconClr="#2effa8"
-        iconSize="50"
-        activeClr="#b8ffec"
-        hoverClr="#ebfff9"
-        rippleClr="#ebfff970"
-      />
-      <LikeButton
-        buttonSize="100px"
+        buttonSize="50px"
         iconClr="#90ff2e"
-        iconSize="50"
+        iconSize="25"
         activeClr="#c9ffbd"
         hoverClr="#ecffeb"
         rippleClr="#ecffeb70"
+      />
+      <LikeButton
+        buttonSize="400px"
+        iconClr="#2effa8"
+        iconSize="200"
+        activeClr="#b8ffec"
+        hoverClr="#c6ffeb"
+        rippleClr="#c6ffeb70"
       />
     </Wrapper>
   );
@@ -53,4 +62,5 @@ export const App = () => {
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
 `;
